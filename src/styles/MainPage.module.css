@@ -1,0 +1,11 @@
+.mainPageTitle {
+  font-size: 70px;
+  transform: translate(-50px, 43vh);
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.secondLine {
+  padding-left: 290px;
+}

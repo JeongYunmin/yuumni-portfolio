@@ -1,0 +1,31 @@
+.btn {
+  font-size: 20px;
+
+  padding: 16px 25px;
+
+  border: 2px solid;
+  border-radius: 10px;
+
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #acacac;
+}
+
+.nav {
+  height: fit-content;
+  width: 1200px;
+
+  padding: 3px 100px;
+
+  display: flex;
+  justify-content: space-around;
+
+  position: fixed;
+  top: 175px;
+  left: 0;
+  right: 0;
+
+  z-index: 999;
+}
