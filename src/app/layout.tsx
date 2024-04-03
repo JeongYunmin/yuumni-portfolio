@@ -1,18 +1,25 @@
+"use client";
+
+import { useParams } from "next/navigation";
 import Header from "@/components/Header";
-import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout(props) {
+  const { id } = useParams();
+
   return (
-    <html lang="ko">
+    <html>
       <body>
-        <Header />
-        <Nav />
-        {children}
+        {id ? (
+          <>{props.children}</>
+        ) : (
+          <>
+            <Header />
+            {props.children}
+            <Footer />
+          </>
+        )}
       </body>
     </html>
   );

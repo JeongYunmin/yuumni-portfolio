@@ -1,20 +1,44 @@
 .header {
   width: 1200px;
-  height: 200px;
+  height: 160px;
   border: 1.5px solid;
   display: flex;
   align-items: center;
-  padding-left: 70px;
+  justify-content: space-between;
+  padding-left: 20px;
   position: fixed;
   top: 0;
+  z-index: 888;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.imgBorder {
+  width: 90px;
+  height: 90px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgWrapper {
-  width: 156px;
-  height: 150px;
-  margin-right: 25px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
 }
 
 .text {
   font-size: 25px;
+  padding-left: 8px;
 }

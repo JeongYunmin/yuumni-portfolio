@@ -1,11 +1,30 @@
-.mainPageTitle {
-  font-size: 70px;
-  transform: translate(-50px, 43vh);
-  display: block;
-  margin: 0 auto;
+.homeContentWrapper {
+  transform: translateY(38vh);
   width: fit-content;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.mainPageTitle {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.mainPageTitle span {
+  font-size: 45px;
+  color: blueviolet;
+}
+
+.mainPageTitle span.frontdev {
+  font-size: 47px;
+  color: rgb(60, 60, 225);
 }
 
 .secondLine {
-  padding-left: 290px;
+  padding-top: 10px;
+  padding-left: 70px;
+}
+
+.thirdLine {
+  padding-left: 40px;
 }

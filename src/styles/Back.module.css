@@ -1,0 +1,16 @@
+.backBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 40px;
+  line-height: 60px;
+  padding-right: 8px;
+  position: fixed;
+  top: 3vh;
+  z-index: 777;
+}
+
+.backBtn:hover {
+  background-color: #fff;
+}
