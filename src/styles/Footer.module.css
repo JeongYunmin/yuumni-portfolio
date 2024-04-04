@@ -1,13 +1,15 @@
 .footer {
   width: 1200px;
   height: 200px;
-  border: 1px solid;
+  background-color: #4e5e60;
   position: absolute;
   bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  color: #fff;
+  font-weight: 100;
 }
 
 .footer p {

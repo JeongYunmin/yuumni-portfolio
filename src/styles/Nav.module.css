@@ -5,17 +5,19 @@
 
 .btn {
   font-size: 18px;
+  color: #fff;
 
   padding: 10px 15px;
 
-  border: 2px solid;
+  border: none;
   border-radius: 10px;
 
-  background-color: #fff;
+  background-color: #698790;
 }
 
 .btn:hover {
-  background-color: #acacac;
+  background-color: #84b7c5;
+  cursor: pointer;
 }
 
 .nav {

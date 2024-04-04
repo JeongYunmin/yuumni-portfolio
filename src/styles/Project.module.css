@@ -12,13 +12,25 @@
   font-size: 23px;
   padding-left: 20px;
   margin: 5px 20px 30px 20px;
+  color: #2b2b2b;
 }
 
 .firstProject button,
 .secondProject button,
 .thirdProject button {
   font-size: 27px;
-  padding: 6px 17px 6px;
+  color: #fff;
+  padding: 9px 17px 6px;
+  background-color: #84b7c5;
+  border: none;
+  border-radius: 10px;
+  border: 3px solid #698790;
+}
+
+.firstProject button:hover,
+.secondProject button:hover,
+.thirdProject button:hover {
+  background-color: #698790;
 }
 
 .firstProject button span,

@@ -13,7 +13,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="리액트 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               ReactJS
             </li>
@@ -23,7 +23,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="자바스크립트 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               JavaScript
             </li>
@@ -33,7 +33,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="HTML 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               HTML5
             </li>
@@ -45,7 +45,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="넥스트 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               NextJS
             </li>
@@ -55,7 +55,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="타입스크립트 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               TypeScript
             </li>
@@ -65,7 +65,7 @@ export default function ProgramingSkill() {
                 width={30}
                 height={30}
                 alt="CSS 아이콘"
-                style={{ marginRight: 3, transform: "translateY(3px)" }}
+                style={{ marginRight: 3, transform: "translateY(4px)" }}
               />
               CSS3
             </li>

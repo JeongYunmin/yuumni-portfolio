@@ -2,15 +2,21 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 1px solid;
+  border: none;
   font-size: 40px;
   line-height: 60px;
   padding-right: 8px;
   position: fixed;
   top: 3vh;
   z-index: 777;
+  background-color: #6b8ea0;
+  color: #fff;
+  box-shadow: -1px 1px 7px 0 #515151;
 }
 
 .backBtn:hover {
-  background-color: #fff;
+  background-color: #608497;
+  cursor: pointer;
+  transform: translateY(1px);
+  box-shadow: none;
 }

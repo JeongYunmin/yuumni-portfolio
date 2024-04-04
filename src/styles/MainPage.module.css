@@ -3,6 +3,7 @@
   width: fit-content;
   height: 500px;
   margin: 0 auto;
+  color: #4b4b4b;
 }
 
 .mainPageTitle {
@@ -12,12 +13,12 @@
 
 .mainPageTitle span {
   font-size: 45px;
-  color: blueviolet;
+  color: rgb(164, 76, 215);
 }
 
 .mainPageTitle span.frontdev {
-  font-size: 47px;
-  color: rgb(60, 60, 225);
+  font-size: 50px;
+  color: rgb(71, 71, 213);
 }
 
 .secondLine {

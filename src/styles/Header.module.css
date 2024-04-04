@@ -1,15 +1,15 @@
 .header {
   width: 1200px;
-  height: 160px;
-  border: 1.5px solid;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 20px;
+  padding-bottom: 50px;
   position: fixed;
   top: 0;
   z-index: 888;
-  background-color: #fff;
+  background: linear-gradient(to bottom, #6b8ea0 20%, rgba(0, 0, 0, 0));
 }
 
 .logo {
@@ -20,7 +20,7 @@
 .imgBorder {
   width: 90px;
   height: 90px;
-  border: 2px solid;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
 .imgWrapper {
   width: 80px;
   height: 80px;
-  border: 1px solid;
+  border: 1px solid #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -41,4 +41,5 @@
 .text {
   font-size: 25px;
   padding-left: 8px;
+  color: #fff;
 }
