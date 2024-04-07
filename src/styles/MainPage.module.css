@@ -4,6 +4,7 @@
   height: 500px;
   margin: 0 auto;
   color: #4b4b4b;
+  z-index: 999;
 }
 
 .mainPageTitle {

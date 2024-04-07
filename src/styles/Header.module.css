@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 888;
-  background: linear-gradient(to bottom, #6b8ea0 20%, rgba(0, 0, 0, 0));
+  background: linear-gradient(to bottom, #817f9a 20%, rgba(0, 0, 0, 0));
 }
 
 .logo {
@@ -18,8 +18,8 @@
 }
 
 .imgBorder {
-  width: 90px;
-  height: 90px;
+  width: 92px;
+  height: 92px;
   border: 2px solid #fff;
   border-radius: 50%;
   display: flex;

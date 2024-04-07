@@ -7,12 +7,17 @@
 
 body {
   width: 100%;
-  height: 150vh;
+  height: 130vh;
   position: relative;
-  background-color: #e4d6a0;
+  background-color: #d8d69a;
+  overflow-x: hidden;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.heart {
+  position: absolute;
 }

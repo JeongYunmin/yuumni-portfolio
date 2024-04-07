@@ -9,13 +9,13 @@
   position: fixed;
   top: 3vh;
   z-index: 777;
-  background-color: #6b8ea0;
+  background-color: #8986b2;
   color: #fff;
   box-shadow: -1px 1px 7px 0 #515151;
 }
 
 .backBtn:hover {
-  background-color: #608497;
+  background-color: #7177d0;
   cursor: pointer;
   transform: translateY(1px);
   box-shadow: none;
