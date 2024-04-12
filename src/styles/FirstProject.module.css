@@ -23,8 +23,154 @@
 }
 
 .ul {
-  width: 500px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.gitLink {
+.codeStorage,
+.developers,
+.developeTime,
+.stack {
+  list-style: none;
+  display: flex;
+}
+
+.codeStorageLable,
+.developersLable,
+.developeTimeLable,
+.stackLable {
+  width: 130px;
+  height: 43.75px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #4a4a4a;
+  background-color: #d9d9d9;
+  text-align: center;
+  line-height: 43.75px;
+}
+
+.codeStorageLink,
+.developersContent,
+.developeTimeContent,
+.stackContent {
+  width: 450px;
+  height: 43.75px;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid #4a4a4a;
+  border-left: none;
+  background-color: #fff;
+  text-align: center;
+  line-height: 43.75px;
+}
+
+.stackContent ul {
+  display: flex;
+  justify-content: center;
+}
+
+.stackContent li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.contribute {
+  list-style: none;
+  width: 300px;
+}
+
+.contributionDesc {
+  margin-bottom: 200px;
+}
+
+.contribute h3:first-child,
+.contribute ul li,
+.contributionDesc h3 {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #4a4a4a;
+  text-align: center;
+  line-height: 35px;
+}
+
+.contribute ul li:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.contributionDesc h3 {
+  width: 900px;
+}
+
+.contribute h3:first-child,
+.contributionDesc h3 {
+  border-radius: 10px 10px 0 0;
+  background-color: #d9d9d9;
+}
+
+.contribute ul li {
+  background-color: #fff;
+  border-top: none;
+  list-style: none;
+}
+
+.contributionDesc,
+.contributionDesc li {
+  list-style: none;
+}
+
+.contributionDesc ul li h4 {
+  width: 150px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  border: 1px solid #4a4a4a;
+  border-top: none;
+  background-color: #c1b9f5;
+}
+
+.contributionDesc ul li p {
+  width: 750px;
+  height: 90px;
+  padding: 20px 22px;
+  line-height: 27px;
+  border: 1px solid #4a4a4a;
+  border-left: none;
+  border-top: none;
+  background-color: #fff;
+}
+
+.descTextWrapper {
+  display: flex;
+}
+
+.imgWrapper {
+  width: 900px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  border: 1px solid #4a4a4a;
+  border-top: none;
+}
+
+.sec {
+  height: 100px;
+}
+
+.contributionDesc ul li div.sec h4 {
+  height: 100px;
+  line-height: 100px;
+}
+
+.contributionDesc ul li div.sec p {
+  height: 100px;
+  padding: 12px 30px 10px;
+}
+
+.divWrapper {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
 }

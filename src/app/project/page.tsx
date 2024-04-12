@@ -38,7 +38,7 @@ export default function Project() {
               </button>
             </Link>
             <p className={styles.thirdProjectDesc}>
-              : 프론트엔드 개발자를 지망하는 본인을 <br />
+              : 프론트엔드 개발자를 지망하는 자신을 <br />
               소개하는 포트폴리오 웹사이트.
             </p>
           </li>
