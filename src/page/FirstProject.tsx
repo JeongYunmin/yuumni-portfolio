@@ -9,7 +9,8 @@ export default function FirstProject() {
         <div className={styles.contentWrapper}>
           <h1 className={styles.title}>그린어스포어스</h1>
           <h3 className={styles.projectDesc}>
-            <span>"</span>친환경한 일상을 나누는 커뮤니티<span>"</span>
+            <span>&quot;</span>친환경한 일상을 나누는 커뮤니티
+            <span>&quot;</span>
           </h3>
           <ul className={styles.ul}>
             <div className={styles.divWrapper}>

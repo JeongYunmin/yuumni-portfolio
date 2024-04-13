@@ -9,8 +9,8 @@ export default function SecondProject() {
         <div className={styles.contentWrapper}>
           <h1 className={styles.title}>윰니의 투두리스트</h1>
           <h3 className={styles.projectDesc}>
-            <span>"</span>날짜별로 할 일 목록을 생성하는 심플한 일정관리 웹
-            서비스<span>"</span>
+            <span>&quot;</span>날짜별로 할 일 목록을 생성하는 심플한 일정관리 웹
+            서비스<span>&quot;</span>
           </h3>
           <ul className={styles.ul}>
             <div className={styles.descWrapper}>

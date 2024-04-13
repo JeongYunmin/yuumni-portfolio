@@ -8,7 +8,8 @@ export default function ThirdProject() {
         <div className={styles.contentWrapper}>
           <h1 className={styles.title}>윰니의 포트폴리오</h1>
           <h3 className={styles.projectDesc}>
-            <span>"</span>프론트엔드 개발자 포트폴리오 웹사이트<span>"</span>
+            <span>&quot;</span>프론트엔드 개발자 포트폴리오 웹사이트
+            <span>&quot;</span>
           </h3>
           <ul className={styles.ul}>
             <li className={styles.codeStorage}>
