@@ -13,7 +13,6 @@ export default function RootLayout(props: any) {
   const arr: number[] = [];
   const randomArr: number[] = [];
   const randomSize: number[] = [];
-
   for (let i = 0; i < 25; i++) {
     arr.push(i);
   }
