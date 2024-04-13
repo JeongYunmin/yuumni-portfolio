@@ -2,7 +2,7 @@ import FirstProject from "@/page/FirstProject";
 import SecondProject from "@/page/SecondProject";
 import ThirdProject from "@/page/ThirdProject";
 
-export default function ProjectId(props) {
+export default function ProjectId(props: any) {
   return (
     <>
       {props.params.id === "1" ? <FirstProject /> : null}
