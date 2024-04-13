@@ -13,22 +13,13 @@ export default function Nav() {
   return (
     <>
       <section className={styles.nav}>
-        <Link
-          href={"http://localhost:3000/" + "programing-skill"}
-          style={{ textDecoration: "none" }}
-        >
+        <Link href="/programing-skill" style={{ textDecoration: "none" }}>
           <Btn text={"Programing Skill"} />
         </Link>
-        <Link
-          href={"http://localhost:3000/" + "project"}
-          style={{ textDecoration: "none" }}
-        >
+        <Link href="/project" style={{ textDecoration: "none" }}>
           <Btn text={"Project"} />
         </Link>
-        <Link
-          href={"http://localhost:3000/" + "education"}
-          style={{ textDecoration: "none" }}
-        >
+        <Link href="/education" style={{ textDecoration: "none" }}>
           <Btn text={"Education"} />
         </Link>
       </section>

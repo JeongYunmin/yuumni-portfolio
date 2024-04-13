@@ -7,7 +7,7 @@ export default function Project() {
       <section className="container">
         <ul className={styles.projectList}>
           <li className={styles.firstProject}>
-            <Link href={"http://localhost:3000/project/" + "1"}>
+            <Link href="/project/1">
               <button>
                 <b>그린어스포어스</b>
                 <span>_자세히보기</span>
@@ -19,7 +19,7 @@ export default function Project() {
             </p>
           </li>
           <li className={styles.secondProject}>
-            <Link href={"http://localhost:3000/project/" + "2"}>
+            <Link href="/project/2">
               <button>
                 <b>윰니의 투두리스트</b>
                 <span>_자세히보기</span>
@@ -31,7 +31,7 @@ export default function Project() {
             </p>
           </li>
           <li className={styles.thirdProject}>
-            <Link href={"http://localhost:3000/project/" + "3"}>
+            <Link href="/project/3">
               <button>
                 <b>윰니의 포트폴리오</b>
                 <span>_자세히보기</span>
