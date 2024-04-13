@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-export default function RootLayout(props) {
+export default function RootLayout(props: any) {
   const { id } = useParams();
   const pathname = usePathname();
 
