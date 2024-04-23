@@ -24,6 +24,9 @@ export default function RootLayout(props: any) {
 
   return (
     <html>
+      <head>
+        <title>윰니의 포트폴리오</title>
+      </head>
       <body>
         <style>
           {`
