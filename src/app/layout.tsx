@@ -19,7 +19,7 @@ export default function RootLayout(props: any) {
 
   arr.map(() => {
     randomArr.push(Math.random() * 20);
-    randomSize.push(Math.random() * (140 - 70) + 70);
+    randomSize.push(Math.random() * (160 - 90) + 90);
   });
 
   return (
@@ -58,7 +58,7 @@ export default function RootLayout(props: any) {
                     left: `${randomArr[i] * 5}vw`,
                     bottom: "0",
                     opacity: "0",
-                    animationDelay: `${Math.random() * 2}s`,
+                    animationDelay: `${Math.random() * 1.5}s`,
                     animationName: "heartEffect",
                     animationDuration: "3.5s",
                     animationTimingFunction: "Ease-out",
