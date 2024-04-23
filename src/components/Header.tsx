@@ -17,7 +17,7 @@ export default function Header() {
               <div className={styles.imgWrapper}>
                 <Image
                   src="/profile-image.JPG"
-                  alt="/images/프로필 이미지"
+                  alt="/images/profile-image.JPG"
                   width={80}
                   height={80}
                   style={{ borderRadius: "50%" }}
