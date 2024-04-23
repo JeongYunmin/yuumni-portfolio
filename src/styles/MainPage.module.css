@@ -31,16 +31,11 @@
   padding-left: 40px;
 }
 
-.homeBtnWrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .goToProjectBtn {
   width: 210px;
   height: 55px;
-  margin-top: 5px;
-  margin-left: 400px;
+  margin-left: 515px;
+  margin-top: 13px;
   background-color: #9692c3;
   color: #fff;
   font-size: 20px;

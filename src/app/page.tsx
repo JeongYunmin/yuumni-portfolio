@@ -23,8 +23,6 @@ export default function Home() {
             <span className={styles.frontdev}>프론트엔드 개발자</span>입니다.
             <span>&quot;</span>
           </h1>
-        </div>
-        <div className={styles.homeBtnWrapper}>
           <Link href={"/project"} className={styles.goToProjectLink}>
             <button className={styles.goToProjectBtn}>
               프로젝트 보러가기:)
