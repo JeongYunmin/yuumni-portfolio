@@ -13,12 +13,12 @@ export default function RootLayout(props: any) {
   const arr: number[] = [];
   const randomArr: number[] = [];
   const randomSize: number[] = [];
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 20; i++) {
     arr.push(i);
   }
 
   arr.map(() => {
-    randomArr.push(Math.random() * 25);
+    randomArr.push(Math.random() * 20);
     randomSize.push(Math.random() * (140 - 70) + 70);
   });
 
@@ -55,12 +55,12 @@ export default function RootLayout(props: any) {
                   alt="하트 이미지"
                   style={{
                     position: "absolute",
-                    left: `${randomArr[i] * 4}vw`,
+                    left: `${randomArr[i] * 5}vw`,
                     bottom: "0",
                     opacity: "0",
                     animationDelay: `${Math.random() * 2}s`,
                     animationName: "heartEffect",
-                    animationDuration: "4s",
+                    animationDuration: "3.5s",
                     animationTimingFunction: "Ease-out",
                   }}
                 />
