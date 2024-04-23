@@ -80,17 +80,15 @@
   height: 100px;
   padding: 10px 40px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 30px;
   color: #fff;
-  background-color: #a5a2ce;
+  background-color: #9692c3;
   margin-top: 33px;
-  box-shadow: 0 5px 10px 1px #626262;
 }
 
 .portfolioBtn:hover {
   cursor: pointer;
   background-color: #7177d0;
   box-shadow: none;
-  transform: translateY(2px);
 }

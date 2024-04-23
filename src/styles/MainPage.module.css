@@ -4,7 +4,7 @@
   height: 500px;
   margin: 0 auto;
   color: #4b4b4b;
-  z-index: 999;
+  z-index: 888;
 }
 
 .mainPageTitle {
@@ -29,4 +29,32 @@
 
 .thirdLine {
   padding-left: 40px;
+}
+
+.homeBtnWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.goToProjectBtn {
+  width: 210px;
+  height: 55px;
+  margin-top: 5px;
+  margin-left: 400px;
+  background-color: #9692c3;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.goToProjectBtn:hover {
+  cursor: pointer;
+  background-color: #7177d0;
+}
+
+.goToProjectLink {
+  z-index: 999;
 }
