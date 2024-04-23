@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href={"https://yuumnist.tistory.com/"} target="_blank">
               <div className={styles.tistoryIcon}>
                 <Image
-                  src={"/티스토리 아이콘.png"}
+                  src={"/images/티스토리 아이콘.png"}
                   width={35}
                   height={35}
                   alt="티스토리 아이콘"
@@ -22,7 +22,7 @@ export default function Footer() {
             <Link href={"https://github.com/JeongYunmin"} target="_blank">
               <div className={styles.githubIcon}>
                 <Image
-                  src={"/깃헙 아이콘.png"}
+                  src={"/images/깃헙 아이콘.png"}
                   width={40}
                   height={40}
                   alt="깃헙 아이콘"

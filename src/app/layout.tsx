@@ -48,7 +48,7 @@ export default function RootLayout(props: any) {
               arr.map((i) => (
                 <Image
                   key={i}
-                  src={"/하트.png"}
+                  src={"/images/하트.png"}
                   width={randomSize[i]}
                   height={randomSize[i]}
                   className="heart"

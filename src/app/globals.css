@@ -11,6 +11,7 @@ body {
   position: relative;
   background-color: #f1ebbc;
   overflow-x: hidden;
+  font-family: "Noto Sans KR", "Open Sans", sans-serif;
 }
 
 .container {

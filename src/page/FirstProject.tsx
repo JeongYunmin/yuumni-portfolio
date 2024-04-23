@@ -82,14 +82,14 @@ export default function FirstProject() {
                   <div className={styles.imgWrapper}>
                     <Image
                       className={styles.img}
-                      src={"/회원가입 화면.png"}
+                      src={"/images/회원가입 화면.png"}
                       width={900}
                       height={500}
                       alt="회원가입 화면"
                     ></Image>
                     <Image
                       className={styles.img}
-                      src={"/회원가입 상세 화면.png"}
+                      src={"/images/회원가입 상세 화면.png"}
                       width={900}
                       height={500}
                       alt="회원가입 상세 화면"
@@ -109,14 +109,14 @@ export default function FirstProject() {
                   <div className={styles.imgWrapper}>
                     <Image
                       className={styles.img}
-                      src={"/이미지 업로드 전 화면.png"}
+                      src={"/images/이미지 업로드 전 화면.png"}
                       width={900}
                       height={500}
                       alt="이미지 업로드 전 화면"
                     ></Image>
                     <Image
                       className={styles.img}
-                      src={"/이미지 업로드 후 화면.png"}
+                      src={"/images/이미지 업로드 후 화면.png"}
                       width={900}
                       height={500}
                       alt="이미지 업로드 후 화면"

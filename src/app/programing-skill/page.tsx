@@ -9,7 +9,7 @@ export default function ProgramingSkill() {
           <ul className={styles.skillList}>
             <li>
               <Image
-                src={"/리액트 아이콘.png"}
+                src={"/images/리액트 아이콘.png"}
                 width={30}
                 height={30}
                 alt="리액트 아이콘"
@@ -19,7 +19,7 @@ export default function ProgramingSkill() {
             </li>
             <li>
               <Image
-                src={"/자바스크립트 아이콘.png"}
+                src={"/images/자바스크립트 아이콘.png"}
                 width={30}
                 height={30}
                 alt="자바스크립트 아이콘"
@@ -29,7 +29,7 @@ export default function ProgramingSkill() {
             </li>
             <li>
               <Image
-                src={"/html-icon.png"}
+                src={"/images/html-icon.png"}
                 width={30}
                 height={30}
                 alt="HTML 아이콘"
@@ -41,7 +41,7 @@ export default function ProgramingSkill() {
           <ul className={styles.skillList}>
             <li>
               <Image
-                src={"/넥스트 아이콘.png"}
+                src={"/images/넥스트 아이콘.png"}
                 width={30}
                 height={30}
                 alt="넥스트 아이콘"
@@ -51,7 +51,7 @@ export default function ProgramingSkill() {
             </li>
             <li>
               <Image
-                src={"/타입스크립트 아이콘.png"}
+                src={"/images/타입스크립트 아이콘.png"}
                 width={30}
                 height={30}
                 alt="타입스크립트 아이콘"
@@ -61,7 +61,7 @@ export default function ProgramingSkill() {
             </li>
             <li>
               <Image
-                src={"/css-icon.png"}
+                src={"/images/css-icon.png"}
                 width={30}
                 height={30}
                 alt="CSS 아이콘"

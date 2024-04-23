@@ -62,21 +62,21 @@ export default function SecondProject() {
             <li className={styles.imgList}>
               <Image
                 className={styles.img}
-                src={"/커버화면.png"}
+                src={"/images/커버화면.png"}
                 width={900}
                 height={500}
                 alt="커버화면"
               ></Image>
               <Image
                 className={styles.img}
-                src={"/메인 서비스 화면.png"}
+                src={"/images/메인 서비스 화면.png"}
                 width={900}
                 height={500}
                 alt="메인 서비스 화면"
               ></Image>
               <Image
                 className={styles.img}
-                src={"/메인 서비스 화면의 삭제기능.png"}
+                src={"/images/메인 서비스 화면의 삭제기능.png"}
                 width={900}
                 height={500}
                 alt="메인 서비스 화면의 삭제기능"
